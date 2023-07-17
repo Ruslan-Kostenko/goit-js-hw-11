@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(210, 210, 210);
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    border: 3px solid yellow;
+    border-radius: 16px;
+    background-color: gray;
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+
+input {
+    border: 2px solid yellow;
+    border-radius: 8px;
+
+    margin-bottom: 4px;
+    
+}
+
+button {
+    border: 3px solid gray;
+    border-radius: 8px;
+    background-color: yellow;
+
+    width: 190px;
+    height: 30px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
